@@ -1,0 +1,57 @@
+html { overflow-x: hidden; } 
+
+body{
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    text-align: center;
+}
+
+.Connexion{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 6rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.login{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.875rem;
+}
+.styleLogin{
+    width: 53.1875rem;
+    height: 4.3125rem;
+    flex-shrink: 0;
+    border-radius: 2.2125rem;
+    border: 5px solid #FFF;
+    background: rgba(217, 217, 217, 0.00);
+    left: 5.375rem;
+    top: 1.6875rem;
+    color: #FFF;
+    text-align: center;
+    font-family: poppins;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.bouton{
+    width: 38.75rem;
+    height: 5.8125rem;
+    border-radius: 1.9375rem;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: poppins;
+    font-size: 2.5rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    left: 15rem;
+    bottom: 1.375rem;
+    width: 32rem;
+}

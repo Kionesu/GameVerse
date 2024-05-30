@@ -1,0 +1,154 @@
+html { overflow-x: hidden; } 
+
+body{
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    text-align: center;
+}
+
+
+.size{
+    width: 21.8125rem;
+    height: 31.987rem;
+    flex-shrink: 0;
+    border: 3.50px solid #FFF;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    transition: transform .2s; 
+    border-radius: 5%;
+}
+
+.size:hover{
+    transform: scale(1.1);
+}
+
+.Horizontale{
+    display: flex;
+    flex-direction: row;
+    gap: 6.5%;
+    justify-content: center;
+    margin-bottom: 7%;
+    align-items: center;
+    margin-left: 20%;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    color: #FFF;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40%;
+
+    
+}
+
+.Milieu{
+    align-items: center;
+}
+h1{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.titre{
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    margin-right: 40%;
+    text-decoration-line: underline;
+
+}
+
+.description{
+    color: white;
+    width: 60%;
+    align-items: center;
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.15rem;
+    font-style: italic;
+    line-height: normal;
+}
+.Verticale{
+  display: inline-flex;
+  flex-direction: column;
+  gap: 50%;
+}
+.root {
+
+    gap : 30px;
+  }
+ 
+  .login{
+    display: flex;
+    width: 13.625vw;
+    height: 3.6875rem;
+    flex-shrink: 0;
+    border-radius: 1.9375rem;
+    background: #FFF;
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.1vw;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+
+  header{
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 10%;
+    gap: 10%;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+
+  }
+
+.Nom{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+
+.Fait{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration-line: underline;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.test2{
+    color: #FFF;
+    font-family: Poppins;
+}

@@ -1,0 +1,57 @@
+.contour{
+    width: 825px;
+    height: 50px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    border-radius: 30px;
+    color: #FFF;
+    text-align: center;
+}
+
+.contour2{
+    width: 825px;
+    height: 168px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: transparent;
+    border-radius: 30px;
+    text-align: center;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    align-items: center;
+    text-align: center;
+}
+
+.Distance{
+    display: inline-flex;
+    flex-direction: column;
+    color: #FFF;
+    text-align: center;
+    font-family: Outfit;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Ajouter{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Acceuil{
+    color: #FFF;
+    font-family: "Roboto Mono";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -3.6px;
+    width: 220px;
+}
